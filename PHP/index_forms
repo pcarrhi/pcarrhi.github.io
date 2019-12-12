@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <!--include??<meta http-equiv="Content-type" content="text/html">-->
+    <title>qWWWerty</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css_v2.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+
+
+
+
+<body>
+
+<div class="hero">
+    <div class="form-box">
+       
+        <div class="button-box">
+            <div id="btn_login"></div>
+                <button type="button" class="toggle-btn" onclick="">Log In</button>
+                <button type="button" class="toggle-btn" onclick=""><a href="userform_register.html">Register</a></button>
+        
+        </div>
+        <div class="social-icons">
+            <img src="IMAGES/fb.png">
+            <img src="IMAGES/tw.png">
+            <img src="IMAGES/gp.png">
+        </div>
+
+        <div class="form_wrapper">
+        <form id="login" class="input-group" name="login" action="login.php" method="post" onclick="login()">
+            <label name="email">Email</label>
+            <input type="text" class="input-field" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="email" required><br>
+            <label name="password">Password</label>
+            <input type="password" class="input-field" name="password" placeholder="password"><br>
+            <button type="submit" class="submit-btn">Register</button>
+        </form>
+
+        </div>
+    </div><!--form box div-->
+ 
+
+</div> <!--/hero div-->
+
+<script src="box_switch.js"></script>
+</body>
+</html>
+
+
