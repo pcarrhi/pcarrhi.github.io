@@ -159,19 +159,22 @@ img {
   text-align: right;
   font-weight:bold;
   font-size:2em;
+  margin-bottom:-1%;
 }
 
 .ul-backend {
   text-align: left;
   font-weight:bold;
   font-size:2em;
+  margin-bottom:-1%;
 }
 
 .symfony {
   text-align:center;
   font-weight:bold;
   font-size:2em;
-  margin-top: -7%;
+  margin-top: -5%;
+  width:100%;
 }
 
 
