@@ -78,13 +78,17 @@ a {
 /*ABOUT ME SECTION*/
 img {
   border-radius: 10%;
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 
 .about-me {
   text-align: center;
   width:100%;
+}
+
+.col .s12 a {
+   display: inline;
 }
 
 .git-link {
