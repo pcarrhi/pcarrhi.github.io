@@ -1,0 +1,27 @@
+
+
+<mat-toolbar class="toolbar">{{ title }}
+  <mat-nav-list class="right-align">
+    <a mat-list-item [routerLink]="''"><span class="text">Home</span></a>
+      <a mat-list-item [routerLink]="'logout'"><span class="text">Logout</span></a>
+  </mat-nav-list>  
+</mat-toolbar>
+<router-outlet></router-outlet>
+
+
+
+
+
+<!-- <div *ngIf="user.uid | async as uid; else login" class="container">
+  User {{ uid }} is logged in. Ready to start jamming?
+  <div *ngIf="user.isAdmin | async">
+    User {{ uid }} also has ADMIN superpowers..OOH
+  </div>
+  <div><button (click)="logout()">Logout</button></div>
+</div>
+
+<div class="loggedout">
+  <ng-template #login>
+  Please login to your MusicMeetup account.
+  <button (click)="user.login()">Login</button>
+</ng-template>  -->
