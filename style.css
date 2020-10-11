@@ -31,12 +31,11 @@ html, body {
           flex-direction: column;
 }
 
-/*IMG TESTING size
+/*IMG TESTING size*//
 #image {
-max-width:50%;
-max-height: 50%;
+max-width:60%;
+max-height: 60%;
 }
-*/
 
 
 /*NAVIGATOR: Change font color of top tabs*/
