@@ -32,7 +32,7 @@ html, body {
 }
 
 /*IMG TESTING size*/
-img {
+#image {
 max-width:20%;
 max-height: 20%;
 }
